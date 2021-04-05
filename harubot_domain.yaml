@@ -1,0 +1,29 @@
+slots:
+
+  work:
+    type:text
+  like:
+    type:text
+  name:
+    type:text
+
+intents:
+  - greeting
+  - get_my_likes
+  - get_my_works
+
+entites:
+  - work
+  - like
+  - name
+
+templates:
+  utter_greet:
+    - '안녕! 반가워!'
+    - '안녕! {name}!'
+
+actions:
+  - utter_greet
+  - get_my_likes
+  - get_my_works
+

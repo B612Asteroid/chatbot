@@ -1,0 +1,37 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greeting",
+        "text": "안녕!"
+      },
+      {
+        "intent": "greeting",
+        "text": "반가워!"
+      },
+      {
+        "intent": "get_my_likes",
+        "text": "취미가 뭐니?"
+      },
+      {
+        "intent": "get_my_likes",
+        "text": "무슨 음식 좋아해?"
+      },
+      {
+        "intent": "get_my_works",
+        "text": "지금 뭐해?"
+      },
+      {
+        "intent": "get_my_works",
+        "text": "주말에 뭐해?"
+      },
+      {
+        "intent": "get_my_works",
+        "text": "오늘은 뭐할거야?"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
